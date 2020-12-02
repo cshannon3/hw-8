@@ -1,0 +1,125 @@
+
+*{
+    font-family: 'Source Code Pro', monospace;
+}
+
+
+body{
+    background: #E5E5E5;
+}
+
+.navbar{
+    height: 94px;
+    background: #0F2E3D;
+    width: 100vw;
+}
+.btn-block {
+	display: block;
+}
+
+.main-box{
+    height:100vh;
+    width: 100vw;
+}
+.main-box2{
+    position: relative;
+    top:-100vh;
+}
+
+.row{
+    padding: 0px 5vw;
+}
+.arrow-down{
+width: 0; 
+height: 0; 
+border-left: 20px solid transparent;
+border-right: 20px solid transparent;
+
+border-top: 20px solid #f00;
+}
+.s1-text-container{
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    padding: 15px;
+   padding: 50px;
+     height: min-content;
+
+}
+.text-white {
+    color: whitesmoke;
+}
+
+.s1-header{
+   
+    font-family: 'Francois One', sans-serif;
+    font-size: 55px;
+    line-height: 96px;
+/* text color / light */
+    color: #FFFFFF;
+}
+
+#internet-image{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(0deg, rgba(44, 129, 208, 0.3), rgba(44, 129, 208, 0.3)), url('assets/internet.png');
+    backdrop-filter: blur(4px);
+    background-size:cover;
+}
+
+#connect-image{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(0deg, rgba(44, 129, 208, 0.3), rgba(44, 129, 208, 0.3)), url('assets/ic.jpg');
+    backdrop-filter: blur(4px);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+
+.plus-minus-input {
+    position: relative;
+    left: 60px;
+    top:200px;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .plus-minus-input .input-group-field {
+    text-align: center;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    padding: 1rem;
+  }
+  
+  .plus-minus-input .input-group-field::-webkit-inner-spin-button,
+  .plus-minus-input .input-group-field ::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+            appearance: none;
+  }
+  
+  .plus-minus-input .input-group-button .circle {
+    border-radius: 50%;
+    padding: 0.25em 0.8em;
+  }
+  .flowval{
+      width: 50px;
+      height:20px;
+  }
+ 
+
+  /* ---- reset ---- */
+   body{ margin:0; font:normal 75% Arial, Helvetica, sans-serif; } 
+   canvas{ display: block; vertical-align: bottom; }
+    /* ---- particles.js container ---- */ 
+    #particles-js{ 
+        width: 100vw; 
+        height: 100vh; 
+        background-color: rgba(44, 129, 208, 1.0);  
+         background-image: url('assets/ss.png'); 
+        background-repeat: no-repeat; 
+        background-size: cover; 
+        background-position: center;
+        /*background-position: 50% 50%;  */
+    } 
+   
