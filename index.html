@@ -1,371 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>Bootstrap Example</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- CSS -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-<!-- jQuery and JS bundle w/ Popper.js -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <!-- jQuery and JS bundle w/ Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <!-- <script src="https://d3js.org/d3.v6.min.js"></script> -->
     <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-   
     <script src="https://cdn.jsdelivr.net/npm/p5@1.1.9/lib/p5.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap"
+        rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Francois+One&display=swap" rel="stylesheet">
-    
     <link rel="stylesheet" type="text/css" href="node_modules/fullpage.js/dist/fullpage.css" />
     <script type="text/javascript" src="node_modules/fullpage.js/dist/fullpage.js"></script>
 </head>
+
 <body>
     <div id="fullpage">
         <div class="section">
             <div id="particles-js"></div>
         </div>
-        <div class="section">
-            <div id="internet-image">
-                <div class="container-fluid  main-box">
-                    <div class="row align-items-center main-box">
-                        <div class="col-sm-4">
-                            <p class="s1-header">SYSTEMS THINKING FOR UX DESIGNERS</p>
-                        </div>
-                        <div class="col-sm-8 s1-text-container">
-                            <p class="text-white">Embracing complexity and nuance is also an important part of both
-                                Human-Centered
-                                Design(HCD) and systems thinking. These two approaches to problem solving are extremely
-                                compatible
-                                with eachother. HCD excels at helping us discover and address user painpoints. And
-                                systems thinking
-                                gives us a framework to understand how a user’s behavior is influenced by their history,
-                                environment, and current context.</p>
+        <div class="section container-fluid main-box">
+            <p id="quote1" class="quotes">“We cannot solve our problems with the same thinking we used when we created
+                them.”</p>
 
-                            <p class="text-white"> Both use models to help us make sense of the complexity and give us a
-                                glimpse
-                                into the user experience that can lead to valuable insights and innovative ideas. </p>
+        </div>
+        <div class="section container-fluid main-box">
+            <div class="titlebox">
+                <h1 > Social Innovation: Through The Lense of Systems Thinking</h1>
+            </div>
+            <div class="row mx-auto">
+                <div class="col-sm-6 ">
+                 <p class = "main-paragraph">Our world is becoming increasing complex and interconnected. And so are our problems.</p>
 
-                            <p class="text-white"> Many of these ideas around systems thinking are already common in
-                                HCD. But by
-                                incorporating the language and tools into our work, we can better understand the
-                                critical role that
-                                feedback and systems play in influnece user behavior and experience..</p>
-                        </div>
-                    </div>
+                <p class = "main-paragraph"> The linear mindset of looking for a single ‘root cause’ of a user’s problem won’t help in addressing
+                    the many ‘wicked problems’ that plague our society. To address problems like climate change,
+                    poverty, obesity, racism, and education, we need new way of thinking.</p>
+
+                  <p class = "main-paragraph"> We need to start thinking in systems. This site will act as a primer to help you better understand
+                    the features of a systems and the types of interventions necessary to change them.</p> 
                 </div>
             </div>
         </div>
-        <div class="section">
-            <div id="connect-image">
-                <p class="s1-header">3 Key Concepts</p>
-                <p class="s1-header">1. Interconnectedness</p>
-                <p class="s1-header">2. Emergence</p>
-                <p class="s1-header">3. Feedback</p>
+        <div class="section container-fluid main-box">
+            <div class="row">
+                <h1> Interconnectedness: Systems and Courts </h1>
             </div>
-        </div>
-        <div class="section container-fluid">
-           
             <div class="row">
                 <div class="col-sm-6">
-                    <p class="s1-header">1. Interconnectedness</p>
-                    <p class="text-white">
-                        Many of these ideas around systems thinking are already common in HCD. But by
-                        incorporating the language and tools into our work, we can better understand the critical role
-                        that
-                        feedback and systems play in influnece user behavior and experience..</p>
-                </div>
+                    <p class="s1-header">Interconnectedness</p>
+                    Interconnectedness
 
+                    The first step to thinking in systems is to realize that everything is connected.
+
+                    Without seeing how the larger system affects behavior, you’ll hit invisible barriers and miss points
+                    of leverage.
+
+                    For example, the obesity and nutrition gap in low income communities is systemic.
+
+                    The linear approach of looking for single factors like ‘availability of healthy food,’ doesn’t
+                    adequately address the many factors that influence what we eat.
+
+                    People eat unhealthy food because of availibility, knowledge, culture, habit, environment and more.
+                    To change their behavior, you have to target multiple of these.
+
+                    While this makes it harder to initially change behavior, it also means that changes to one part of
+                    the system can lead to significant changes in another part.
+
+                    By expanding our scope and looking for leverage elsewhere in the system, we can discover new
+                    solutions.
+
+                </div>
                 <div class="col-sm-6">
-                    <img src="assets/interconnect.png" style='height: 100%; width: 100%; object-fit: cover;'></img>
+                    <iframe width="420" height="315" src="https://www.youtube.com/embed/gfCcI6_1iiA">
+                    </iframe>
                 </div>
             </div>
-        
         </div>
-        <div class="section container-fluid">
+        <div class="section container-fluid main-box">
+            <div class="row">
+                <h1>Emergence & Purpose: Systems and Nutrition </h1>
+            </div>
             <div class="row">
                 <div class="col-sm-6">
-                    <p class="s1-header">2. Emergence</p>
+                    <p class="s1-header">Current Mindset</p>
+                    <iframe width="420" height="315" src="https://www.youtube.com/embed/Wsq30E6OSVU">
+                    </iframe>
                     <p class="text-white">
-                        In the preface, I defined emergence as simply as possible: order arising out of chaos. A more nuanced definition is higher-order complexity arising out of chaos in which novel, coherent structures coalesce through interactions among the diverse entities of a system. Emergence occurs when these interactions disrupt, causing the system to differentiate and ultimately coalesce into something novel.
-                        Key elements of this definition are chaos and novelty. Chaos is random interactions among different entities in a given context. Think of people at a cocktail party. Chaos contains no clear patterns or rules of interaction. Make that a cocktail party in which no single culture prevails, so that no one is sure how close to stand to others, whether to make eye contact, or whether to use first or last names. Emergent order arises when a novel, more complex system forms. It often happens in an unexpected, almost magical leap. The cocktail party is actually a surprise party, and everyone knows where to hide and when to sing “Happy Birthday.”
-                        Emergence produces novel systems—coherent interactions among entities following basic principles. In his bestseller Emergence, science writer Steven Johnson puts it this way: “Agents residing on one scale start producing behavior that lies one scale above them: ants create colonies; urbanites create neighborhoods; simple pattern-recognition software learns how to recommend new books.”1 Emergence in human systems has produced new technologies, towns, democracy, and some would say consciousness—the capacity for self-reflection.
                     </p>
                 </div>
+            </div>
+            <div class="col-sm-6">
+                <p class="s1-header">Systems Mindset</p>
+                <iframe width="420" height="315" src="https://www.youtube.com/embed/f4J1pgxYTww">
+                </iframe>
+                <img alt="prison entreprenuership program" class="thumbnail"
+                    src="https://img.youtube.com/vi/Xv9qv0L-7kc/0.jpg"><img>
+                <img alt="red hook community justice" class="thumbnail"
+                    src="https://img.youtube.com/vi/g2sAi5So4EE/0.jpg"><img>
+                <img alt="prison education" class="thumbnail" src="https://img.youtube.com/vi/VphZwSRM-lw/0.jpg"><img>
+            </div>
+        </div>
+        <div class="section container-fluid main-box">
+            <div class="row">
+                <h1>Positive Feedback</h1>
+            </div>
+            <div class="row">
                 <div class="col-sm-6">
-                    <img src="assets/emergence.png" style='height: 100%; width: 100%; object-fit: cover;'></img>
+                    <p class="s1-header">Current Mindset</p>
+                </div>
+                <div class="col-sm-6">
+                    <p class="s1-header">Systems Mindset</p>
+                    <iframe width="420" height="315" src="https://www.youtube.com/embed/HIRbJEYb2Yg">
+                    </iframe>
+                    <img alt="Innovations High School and Big Picture Learning" class="thumbnail"
+                        src="https://img.youtube.com/vi/GzPi8fgdMeE/0.jpg"><img>
+                    <img alt="Meet the People Building Their Own Internet in Detroit" class="thumbnail"
+                        src="https://img.youtube.com/vi/1B0u6nvcTsI/0.jpg"><img>
+                    <img alt="makoko floating school" class="thumbnail"
+                        src="https://img.youtube.com/vi/YM9LY67v2Uc/0.jpg"><img>
+                    <img alt="barefoot college" class="thumbnail"
+                        src="https://img.youtube.com/vi/6qqqVwM6bMM/0.jpg"><img>
+                    <img alt="KIPP" class="thumbnail" src="https://img.youtube.com/vi/T-4WFMI0WUw/0.jpg"><img>
+                    <img alt="KIPP" class="thumbnail" src="https://img.youtube.com/vi/ceWeIKLfgv8/0.jpg"><img>
                 </div>
             </div>
         </div>
-            <div class="section container-fluid">
-                <div class="row">
-                    <div class="col-sm-6">
-                <p class="s1-header">3. Feedback</p>
-                Feedback is what makes systems so hard to predict and complicated to solve. Feedback is basically
-                when A influences B which then infleunces A.
-                The common perspective of viewing the world is the through linear cause-and-effect thinking.
-                When we think in linear terms, we see the world as a series of events that trigger other events.
-                It's only through the feedback loop perspective that we can start to see the underlying structure of
-                these systems and how our actions feed back into them.
-                Thinking in feedback loops helps us see the inter-relation between parts of the system in a way that
-                linear thinking can't.
-                "Systems thinking is not linear, it happens not in a straight line — it happens in cycles, loops, contours. All parts of the system are connected, so a change in one part generates waves of changes that reach all other parts. Thus, the action returns to the starting point in a modified form: so we have a loop. It is called a feedback loop. All our experience is formed as a result of such actions. The phrase “feedback” is often used to designate any reaction, but in reality, it means the perception of the result of our actions affecting subsequent actions, i.e. two-way communication. Our experience is formed as a result of actions of this kind of feedback loops, although we are used to seeing the only one-way influence. The presence of feedback is an integral characteristic of a system. No feedback means no system.
-                There are two main types of feedback:
-                Reinforcing feedback: a change in system state which serves as a signal to enhance the initial change. In other words, the system provides a big change in the same direction.
-                Balancing feedback: a change in system state which serves as a signal to start moving in the opposite direction in order to restore the lost balance."
-                In the next section, I'll discuss a few common feedback loops."
+
+        <div class="section container-fluid main-box">
+            <div class="row">
+                <h1>Systems Solutions </h1>
+            </div>
+            <div class="row">
+                <h3>By understanding the systems around us and designing in ways that leverage the community knowledge
+                    and needs, we can start to address these systemic issues.</h3>
+            </div>
+            <div class="row">
 
             </div>
-            <div class="col-sm-6" >
-                </div>
-                </div>
-            </div>
-            <div class="section container-fluid">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <p class="s1-header">Reinforcing Loops</p>
-                        Reinforcement Loops happen when a change in one direction leads to even more change in that
-                        direction. The changes compound over time. A popular example of this is the interest rate.
-                        The more money you have in the account, the more interest you get, the more money you have
-                        in the account.
-                        If these loops persist for long enough, they can lead to rapid improvements or falls. They
-                        are extremely fragile at the beginning but grow stronger over time.
-                        https://deming.org/systems-thinking-feedback-loops/
-                        "A reinforcing loop encourages the system to continue in that direction (e.g. a damn starting to leak. As water flows over the damn wall, it will further erode the wall which leads to more water flowing over causing more erosion).
-                        When the reinforcing loop is undesirable, it can be referred to as a vicious cycle. This would be something that you would want to avoid if possible. Design the system to avoid reinforcing loops that push results in the wrong direction. When you can’t design that away, create processes that provide notice when things are moving in the wrong direction. Then institute countermeasures to avoid the natural result that the reinforcing loop would provide.
-                        Sometimes you can design the process to have countermeasures automatically take place if conditions start moving in the wrong direction.
-                        When the reinforcing loop is a desired result, then we want to design the system to encourage things to continue to move in that direction. Sometimes it can be useful to think of it as having a bit of inertia, but as you put in some effort to get things going, then it gathers momentum and can produce more and more benefit for very little effort (like rolling something down a hill).
-                        An example of a positive reinforcing loop is building trust in an organization. As people gain trust (and fear reduces), people are more willing to be trusting and cooperate; that behavior then encourages more of that behavior and so on. A positive reinforcing loop can be called a virtuous cycle."
-                        
-                    </div>
-                    <div class="col-sm-6" id="section2">
-                        <div class="input-group plus-minus-input">
-                            <div class="input-group-button minus-class">
-                              <button type="button" class="button hollow circle" data-quantity="minus" data-field="quantity">
-                                <i class="fa fa-minus" aria-hidden="true"></i>
-                              </button>
-                            </div>
-                            <input class="input-group-field flowval" type="number" name="quantity" value="0">
-                            <div class="input-group-button  minus-class">
-                              <button type="button" class="button hollow circle" data-quantity="plus" data-field="quantity">
-                                <i class="fa fa-plus" aria-hidden="true"></i>
-                              </button>
-                         </div>
-                          </div>
-                    </div>
-
-                </div>
-
-            </div>
-            <div class="section container-fluid">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <p class="s1-header">Balancing Loops</p>
-                        Balancing loops are continually trying to keep the system at some desired level of performance. The
-                        best example is a Thermostat. It'll be on when the room is colder than the set temperature then turn
-                        off once it exceeds that temperature.
-                        https://deming.org/systems-thinking-feedback-loops/
-                        "Balancing loops will encourage the system to stay in balance (e.g. eating will cause you to feel full and stop eating, while not eating will cause you to feel hungry and start eating).
-                        If you have a specific desired result, you can design a system to include natural balancing loops that achieve the desired result. Doing so is making good use of systems thinking. This is often how balancing loops are portrayed, but they can also result in stubborn resistance to improvement. It can be that the balancing loop is balanced, not at a desired state, but at a less than desired state.
-                        Organizations in fire-fighting mode can often fall into this trap. When there is a crisis, direct resources to address that crisis can return results to at least a non-crisis level. At that point, what an organization based on Deming management system would want to do is consider if that crisis is an indication of a bad system that we should spend resources to examine and improve. Often people say this is what they do, but it isn’t, normally; at best they slap on band-aids and move on.
-                        In the all too common fire-fighting management system organization, what often happens is there is a new crisis and resources must be directed to that. What actually can end up happening is if any area is performing well, they are able to have resources taken away and used to address the crisis. So, if certain areas start to do well, there are balancing forces to bring down their performance (losing resources to accomplish the tasks). And poor areas get temporary infusions of resources to bring levels from a crisis to less poor (but rarely to actually good results because as they move in that direction, some other crisis needs attention).
-                        I explained how well our organization fit this model to one of my bosses at one point. He didn’t like that idea at all. I tried to tell him he didn’t want to hear what I had to say several times, but he insisted so I told him. It was in relation to what I learned at the Hunter Conference on Quality (named for my father, W. Edwards Deming spoke at the inaugural conference) at which I attended several sessions on systems thinking. Sure, I could have avoided telling him, but after he insisted, I felt it is better to share my ideas with management; maybe they would actually listen. But they didn’t. I left in a year or so."
-                    </div>
-                    <div class="col-sm-6" id="section3">
-                        <div class="input-group plus-minus-input">
-                            <div class="input-group-button minus-class">
-                              <button type="button" class="button hollow circle" data-quantity="minus" data-field="quantity">
-                                <i class="fa fa-minus" aria-hidden="true"></i>
-                              </button>
-                            </div>
-                            <div class="input-group-button  minus-class">
-                              <button type="button" class="button hollow circle" data-quantity="plus" data-field="quantity">
-                                <i class="fa fa-plus" aria-hidden="true"></i>
-                              </button>
-                         </div>
-                          </div>
-                    </div>
-
-                </div>
-
-            </div>
-
         </div>
-      
-        <script src="compounding.js"></script>
-        <script src="balancing.js"></script>
-        <script src="index.js"></script>
+    </div>
+    <script src="index.js"></script>
 </body>
 
 </html>
 
 
-
-
- <!-- <script src="smoothie.js"></script>
-    <script src="https://d3js.org/d3.v6.min.js"></script> -->
 <!-- 
-<div class="input-group plus-minus-input">
-    <div class="input-group-button">
-      <button type="button" class="button hollow circle" data-quantity="minus" data-field="quantity">
-        <i class="fa fa-minus" aria-hidden="true"></i>
-      </button>
-    </div>
-    <input class="input-group-field" type="number" name="quantity" value="0">
-    <div class="input-group-button">
-      <button type="button" class="button hollow circle" data-quantity="plus" data-field="quantity">
-        <i class="fa fa-plus" aria-hidden="true"></i>
-      </button>
-    </div>
-  </div> -->
-<!-- <div id="internet-image"></div>
+Example 1 
 
-    <div id="connect-image"></div>
-  
-    <div class="container-fluid  main-box">
-        <div class="row align-items-center main-box2">
-            <div class="col-sm-4">
-                <p class="s1-header">SYSTEMS THINKING FOR UX DESIGNERS</p>
-            </div>
-            <div class="col-sm-8 s1-text-container">
-                <p class="text-white">Embracing complexity and nuance is also an important part of both Human-Centered
-                    Design(HCD) and systems thinking. These two approaches to problem solving are extremely compatible
-                    with eachother. HCD excels at helping us discover and address user painpoints. And systems thinking
-                    gives us a framework to understand how a user’s behavior is influenced by their history,
-                    environment, and current context.</p>
+Prison Pipeline 
+---- The current approach is tough on crime, which leads to a downward spiral that individuals can't get out of.
+Breaking this cycle by creating courts that try to find other artangements,
 
-                <p class="text-white"> Both use models to help us make sense of the complexity and give us a glimpse
-                    into the user experience that can lead to valuable insights and innovative ideas. </p>
 
-                <p class="text-white"> Many of these ideas around systems thinking are already common in HCD. But by
-                    incorporating the language and tools into our work, we can better understand the critical role that
-                    feedback and systems play in influnece user behavior and experience..</p>
-            </div>
-        </div>
-        <div class="row justify-content-around">
-            <div class="col-4 align-items-center">
-                <div class="arrow-down"></div>
-            </div>
-        </div>
-    </div>
 
-    <div class="container-fluid  main-box">
-        <div class="row align-items-center main-box2">
-            <div class="col-sm-4">
-                <p class="s1-header">SYSTEMS THINKING FOR UX DESIGNERS</p>
-            </div>
-            <div class="col-sm-8 s1-text-container">
-             
-                    <p class="text-white">Embracing complexity and nuance is also an important part of both
-                        Human-Centered Design(HCD) and systems thinking. These two approaches to problem solving are
-                        extremely compatible with eachother. HCD excels at helping us discover and address user
-                        painpoints. And systems thinking gives us a framework to understand how a user’s behavior is
-                        influenced by their history, environment, and current context.</p>
+<iframe width="420" height="315"
+                        src="https://www.youtube.com/embed/HIRbJEYb2Yg">
+                    </iframe>
 
-                    <p class="text-white"> Both use models to help us make sense of the complexity and give us a glimpse
-                        into the user experience that can lead to valuable insights and innovative ideas. </p>
-
-                    <p class="text-white"> Many of these ideas around systems thinking are already common in HCD. But by
-                        incorporating the language and tools into our work, we can better understand the critical role
-                        that feedback and systems play in influnece user behavior and experience..</p>
-                
-            </div>
-        </div>
-        <div class="row justify-content-around">
-            <div class="col-4 align-items-center">
-                <div class="arrow-down"></div>
-            </div>
-        </div>
-    </div>
- -->
-<!-- <img src="assets/internet.png" id = "internet-image" alt="hero background web"></img> -->
-
-<!-- 
-
-<div class="row">
-    <svg width="300" height="200">
-        <defs>
-          <marker
-            id="arrow"
-            markerUnits="strokeWidth"
-            markerWidth="12"
-            markerHeight="12"
-            viewBox="0 0 12 12"
-            refX="6"
-            refY="6"
-            orient="auto">
-            <path d="M2,2 L10,6 L2,10 L6,6 L2,2" style="fill: #f00;"></path>
-          </marker>
-        </defs>
-        
-         
-      <div class="container-fluid">
-        <div class="row">
-            <div class="col-sm-12">
-                <div id="floating-panel">
-                    <b>Interest Rate </b>
-                    <div class="slidecontainer">
-                        <input type="range" min="1" max="100" value="50" class="slider" id="interestRate">
-                      </div>
-                    <b>Initial Amount </b>
-                    <div class="slidecontainer">
-                        <input type="range" min="1" max="100" value="50" class="slider" id="initAmount">
-                      </div>
-                      <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Start Simulation</button>
-                      <button onclick="TogetherJS(this); return false;">Start TogetherJS</button>
-                    </div>
-            </div>
-        </div>
-        <div id="container">
-
-        </div>
-    </div>
-      </svg>
-    </div> -->
-<!-- <line x1="0" y1="0" x2="200" y2="50"  stroke="red" stroke-width="2" marker-end="url(#arrow)"/> -->
-
-<!-- <path d="M20,70 T80,100 T160,80 T200,90" fill="white" stroke="red" stroke-width="2" marker-start="url(#arrow)" marker-mid="url(#arrow)" marker-end="url(#arrow)"/> -->
-
-<!-- <div class="row">
-            <canvas id="chart" width="400" height="100"></canvas>
-        </div> -->
-<!-- 
-        <div class="section">
-           
-            <div class="slide" data-anchor="slide1">
-                <div id="connect-image">
-                    <p class="s1-header">3 Key Concepts</p>
-                    <p class="s1-header">1. Interconnectedness</p>
-                    <p class="s1-header">2. Emergence</p>
-                    <p class="s1-header">3. Feedback</p>
-                </div>
-            </div>
-            <div class="slide" data-anchor="slide2">
-                <p class="s1-header">1. Interconnectedness</p>
-                <p class="text-white"> 
-                    Many of these ideas around systems thinking are already common in HCD. But by
-                    incorporating the language and tools into our work, we can better understand the critical role that
-                    feedback and systems play in influnece user behavior and experience..</p>
-            </div>
-            <div class="slide" data-anchor="slide3" >
-                <p class="s1-header">2. Emergence</p>
-                <p class="text-white">
-                    Many of these ideas around systems thinking are already common in HCD. But by
-                    incorporating the language and tools into our work, we can better understand the critical role that
-                    feedback and systems play in influnece user behavior and experience.
-                </p>
-            </div>
-            <div class="slide" data-anchor="slide4" >
-                <p class="s1-header">3. Feedback</p>
-                Feedback is what makes systems so hard to predict and complicated to solve. Feedback is basically when A influences B which then infleunces A. 
-                The common perspective of viewing the world is the through linear cause-and-effect thinking. 
-                When we think in linear terms, we see the world as a series of events that trigger other events.
-                It's only through the feedback loop perspective that we can start to see the underlying structure of these systems and how our actions feed back into them.
-                Thinking in feedback loops helps us see the inter-relation between parts of the system in a way that linear thinking can't.
-
-                In the next section, I'll discuss a few common feedback loops.
-
-            </div>
-        </div> -->
+<img alt="Innovations High School and Big Picture Learning" class="thumbnail" src = "https://img.youtube.com/vi/GzPi8fgdMeE/0.jpg"><img>
+<img  alt="Meet the People Building Their Own Internet in Detroit" class="thumbnail" src = "https://img.youtube.com/vi/1B0u6nvcTsI/0.jpg"><img>
+<img  alt="makoko floating school" class="thumbnail" src = "https://img.youtube.com/vi/YM9LY67v2Uc/0.jpg"><img>
+<img  alt="barefoot college" class="thumbnail" src = "https://img.youtube.com/vi/6qqqVwM6bMM/0.jpg"><img>
+<img  alt="KIPP" class="thumbnail" src = "https://img.youtube.com/vi/T-4WFMI0WUw/0.jpg"><img>
+<img  alt="KIPP" class="thumbnail" src = "https://img.youtube.com/vi/ceWeIKLfgv8/0.jpg"><img> -->
