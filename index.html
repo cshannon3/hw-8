@@ -8,27 +8,26 @@
     <!-- CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <!-- jQuery and JS bundle w/ Popper.js -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
         crossorigin="anonymous"></script>
-
-    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+        <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/p5@1.1.9/lib/p5.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+        <link rel="stylesheet" type="text/css" href="node_modules/fullpage.js/dist/fullpage.css" />
+        <script type="text/javascript" src="node_modules/fullpage.js/dist/fullpage.js"></script>
     <link rel="stylesheet" href="style.css">
-    <!-- <script src="https://d3js.org/d3.v6.min.js"></script> -->
-    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/p5@1.1.9/lib/p5.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap"
-        rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Francois+One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="node_modules/fullpage.js/dist/fullpage.css" />
-    <script type="text/javascript" src="node_modules/fullpage.js/dist/fullpage.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+<link
+    href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap"
+    rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Francois+One&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -36,55 +35,357 @@
         <div class="section">
             <div id="particles-js"></div>
         </div>
-        <div class="section container-fluid main-box">
+        <div  id="quotesScreen" class="section container-fluid main-box">
             <p id="quote1" class="quotes">“We cannot solve our problems with the same thinking we used when we created
-                them.”</p>
+                them.” - Albert Einstein</p>
+        </div>
+        <div id="main3" class="section container-fluid main-box">
+
+
+            <div class="titlebox mx-auto">
+                <h1 class="text-center"> Social Innovation: Through The Lense of Systems Thinking</h1>
+            </div>
+            <div class="row pb-4">
+                <div class="col-sm-6 ">
+                    <p class="main-paragraph">Our world is becoming increasing complex and interconnected.
+                        ...and so are our problems.</p>
+                    <p class="main-paragraph">
+                        Design thinking, was created to aid in our efforts to solve the complex problems people face in
+                        their day-to-day lives.
+
+                        Now it's starting to be applied in the field of social innovation, to try and address the
+                        ‘wicked problems’ in our society like climate change,
+                        poverty, obesity, racism, and education.
+                    </p>
+                </div>
+                <div class="col-sm-6 ">
+                    <p class="main-paragraph"> We need to start thinking in systems. This site will act as a primer to
+                        help you better understand
+                        the features of a systems and the types of interventions necessary to change them.</p>
+                </div>
+            </div>
+
+            <div class="row d-flex justify-content-around pt-3">
+
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                        <div class="mainflip">
+                            <div class="frontside">
+                                <div class="card">
+                                    <div class="card-body text-center">
+                                        <p><img class="card-img-top" src="assets/st.png" alt="card image"></p>
+                                        <p class="card-text ttl">Design Thinking</p>
+                                        <p class="card-text">This is basic card with image on top, title, description
+                                            and button.</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="backside">
+                                <div class="card">
+                                    <div class="card-body text-center mt-2">
+                                        <h4 class="card-title">Design Thinking</h4>
+                                        <p class="card-text">"Design Thinking is an iterative process in which we seek
+                                            to understand the user, challenge assumptions, and redefine problems in an
+                                            attempt to identify alternative strategies and solutions that might not be
+                                            instantly apparent with our initial level of understanding"
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="tile1" class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                        <div class="mainflip">
+                            <div class="frontside">
+                                <div class="card">
+                                    <div class="card-body text-center">
+                                        <p><img class="card-img-top" src="assets/desthink.png" alt="card image"></p>
+                                        <p class="card-text ttl">Systems Thinking</p>
+                                        <p class="card-text">Intercnnectedness, emergence, feedback, causal loops</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="backside">
+                                <div class="card">
+                                    <div class="card-body text-center mt-2">
+                                        <h4 class="card-title">Systems Thinking</h4>
+                                        <p class="card-text">"Systems thinking is an approach to integration that is
+                                            based on the belief that the component parts of a system will act
+                                            differently when isolated from the system’s environment or other parts of
+                                            the system"
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                        <div class="mainflip">
+                            <div class="frontside">
+                                <div class="card">
+                                    <div class="card-body text-center">
+                                        <p><img class="card-img-top" src="assets/st.png" alt="card image"></p>
+                                        <p class="card-text ttl">Social Innovation</p>
+                                        <p class="card-text">Collaborations between government, business, and the
+                                            nonprofits. </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="backside">
+                                <div class="card">
+                                    <div class="card-body text-center mt-2">
+                                        <h4 class="card-title">Social Innovation</h4>
+                                        <p class="card-text">"Social innovation is the process of developing and
+                                            deploying effective solutions to challenging and often systemic social and
+                                            environmental issues in support of social progress.
+
+                                            —Soule, Malhotra, Clavier"
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         </div>
         <div class="section container-fluid main-box">
-            <div class="titlebox">
-                <h1 > Social Innovation: Through The Lense of Systems Thinking</h1>
+            <div class="titlebox mx-auto pt-2">
+                <h1 class="text-center"> Education</h1>
             </div>
-            <div class="row mx-auto">
-                <div class="col-sm-6 ">
-                 <p class = "main-paragraph">Our world is becoming increasing complex and interconnected. And so are our problems.</p>
+            <div class="card-columns">
+                <div class="card">
+                    <img class="card-img-top" src="https://img.youtube.com/vi/GzPi8fgdMeE/0.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title that wraps to a new line</h5>
+                        <p class="card-text">This is a longer card with supporting text below.</p>
+                    </div>
+                </div>
+                <div class="card p-3">
+                    <blockquote class="blockquote mb-0 card-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                        <footer class="blockquote-footer">
+                            <small class="text-muted">
+                                Someone famous in <cite title="Source Title">Source Title</cite>
+                            </small>
+                        </footer>
+                    </blockquote>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="https://img.youtube.com/vi/T-4WFMI0WUw/0.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                            content.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
 
-                <p class = "main-paragraph"> The linear mindset of looking for a single ‘root cause’ of a user’s problem won’t help in addressing
-                    the many ‘wicked problems’ that plague our society. To address problems like climate change,
-                    poverty, obesity, racism, and education, we need new way of thinking.</p>
-
-                  <p class = "main-paragraph"> We need to start thinking in systems. This site will act as a primer to help you better understand
-                    the features of a systems and the types of interventions necessary to change them.</p> 
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                            content.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img" src="https://img.youtube.com/vi/YM9LY67v2Uc/0.jpg" alt="Card image">
+                </div>
+                <div class="card p-3 text-right">
+                    <blockquote class="blockquote mb-0">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                        <footer class="blockquote-footer">
+                            <small class="text-muted">
+                                Someone famous in <cite title="Source Title">Source Title</cite>
+                            </small>
+                        </footer>
+                    </blockquote>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This card has even longer content than the first to show that equal
+                            height action.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="section container-fluid main-box">
-            <div class="row">
-                <h1> Interconnectedness: Systems and Courts </h1>
+            <div class="titlebox mx-auto pt-2">
+                <h1 class="text-center"> Criminal Justice</h1>
+            </div>
+            <div class="card-columns">
+                <div class="card">
+                    <img class="card-img-top" src="https://img.youtube.com/vi/GzPi8fgdMeE/0.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title that wraps to a new line</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="https://img.youtube.com/vi/Xv9qv0L-7kc/0.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Prisoner Entrepreneurship Program, A Documentary</h5>
+                        <p class="card-text">This content is a little bit longer.</p>
+                    </div>
+                </div>
+                <div class="card p-3">
+                    <blockquote class="blockquote mb-0 card-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                        <footer class="blockquote-footer">
+                            <small class="text-muted">
+                                Someone famous in <cite title="Source Title">Source Title</cite>
+                            </small>
+                        </footer>
+                    </blockquote>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="https://img.youtube.com/vi/zNpehw-Yjvs/0.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">How Norway's Prisons Are Different From America's</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                            content.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                            content.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img" alt="Inmate University" src="https://img.youtube.com/vi/VphZwSRM-lw/0.jpg"
+                        alt="Card image">
+                </div>
+                <div class="card p-3 text-right">
+                    <blockquote class="blockquote mb-0">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                        <footer class="blockquote-footer">
+                            <small class="text-muted">
+                                Someone famous in <cite title="Source Title">Source Title</cite>
+                            </small>
+                        </footer>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+        <div class="section container-fluid main-box">
+            <div class="titlebox mx-auto pt-2">
+                <h1 class="text-center">Health </h1>
+            </div>
+            <div class="card-columns">
+                <div class="card">
+                    <img class="card-img-top" src="https://img.youtube.com/vi/FIi782I6YS0/0.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Access to mental health care for all is #Solvable | Dixon Chibanda</h5>
+                        <p class="card-text">"Availability of mental health care is #Solvable. Dixon Chibanda explains
+                            how training local health workers to identify, advise, and treat mental health conditions
+                            can help provide adequate psychiatric care to those for whom it is hardest to access".</p>
+                    </div>
+                </div>
+                <div class="card p-3">
+                    <blockquote class="blockquote mb-0 card-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                        <footer class="blockquote-footer">
+                            <small class="text-muted">
+                                Someone famous in <cite title="Source Title">Source Title</cite>
+                            </small>
+                        </footer>
+                    </blockquote>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="https://img.youtube.com/vi/gfCcI6_1iiA/0.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">How Urban Farming Saved a Dallas Community</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                            content.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img" src="https://img.youtube.com/vi/6qqqVwM6bMM/0.jpg" alt="Card image">
+                </div>
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                            content.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img" src="https://img.youtube.com/vi/YM9LY67v2Uc/0.jpg" alt="Card image">
+                </div>
+                <div class="card p-3 text-right">
+                    <blockquote class="blockquote mb-0">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                        <footer class="blockquote-footer">
+                            <small class="text-muted">
+                                Someone famous in <cite title="Source Title">Source Title</cite>
+                            </small>
+                        </footer>
+                    </blockquote>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This card has even longer content than the first to show that equal
+                            height action.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section container-fluid main-box">
+            <div class="titlebox">
+                <h1 class="titlebox">Interconnectedness </h1>
             </div>
             <div class="row">
                 <div class="col-sm-6">
-                    <p class="s1-header">Interconnectedness</p>
-                    Interconnectedness
 
-                    The first step to thinking in systems is to realize that everything is connected.
+                    <p class="py-1"> The first step to thinking in systems is to realize that everything is connected.
+                    </p>
 
-                    Without seeing how the larger system affects behavior, you’ll hit invisible barriers and miss points
-                    of leverage.
+                    <p class="py-1"> Without seeing how the larger system affects behavior, you’ll hit invisible
+                        barriers and miss points
+                        of leverage.</p>
 
-                    For example, the obesity and nutrition gap in low income communities is systemic.
+                    <p class="py-1"> For example, the obesity and nutrition gap in low income communities is systemic.
+                    </p>
 
-                    The linear approach of looking for single factors like ‘availability of healthy food,’ doesn’t
-                    adequately address the many factors that influence what we eat.
+                    <p class="py-1"> The linear approach of looking for single factors like ‘availability of healthy
+                        food,’ doesn’t
+                        adequately address the many factors that influence what we eat.</p>
 
-                    People eat unhealthy food because of availibility, knowledge, culture, habit, environment and more.
-                    To change their behavior, you have to target multiple of these.
+                    <p class="py-1"> People eat unhealthy food because of availibility, knowledge, culture, habit,
+                        environment and more.
+                        To change their behavior, you have to target multiple of these.</p>
 
-                    While this makes it harder to initially change behavior, it also means that changes to one part of
-                    the system can lead to significant changes in another part.
+                    <p class="py-1"> While this makes it harder to initially change behavior, it also means that changes
+                        to one part of
+                        the system can lead to significant changes in another part.</p>
 
-                    By expanding our scope and looking for leverage elsewhere in the system, we can discover new
-                    solutions.
+                    <p class="py-1"> By expanding our scope and looking for leverage elsewhere in the system, we can
+                        discover new
+                        solutions.</p>
 
                 </div>
                 <div class="col-sm-6">
@@ -94,27 +395,22 @@
             </div>
         </div>
         <div class="section container-fluid main-box">
-            <div class="row">
-                <h1>Emergence & Purpose: Systems and Nutrition </h1>
+            <div class="titlebox">
+                <h1 class="titlebox">Emergence</h1>
             </div>
             <div class="row">
                 <div class="col-sm-6">
-                    <p class="s1-header">Current Mindset</p>
-                    <iframe width="420" height="315" src="https://www.youtube.com/embed/Wsq30E6OSVU">
-                    </iframe>
-                    <p class="text-white">
-                    </p>
                 </div>
-            </div>
-            <div class="col-sm-6">
-                <p class="s1-header">Systems Mindset</p>
-                <iframe width="420" height="315" src="https://www.youtube.com/embed/f4J1pgxYTww">
-                </iframe>
-                <img alt="prison entreprenuership program" class="thumbnail"
-                    src="https://img.youtube.com/vi/Xv9qv0L-7kc/0.jpg"><img>
-                <img alt="red hook community justice" class="thumbnail"
-                    src="https://img.youtube.com/vi/g2sAi5So4EE/0.jpg"><img>
-                <img alt="prison education" class="thumbnail" src="https://img.youtube.com/vi/VphZwSRM-lw/0.jpg"><img>
+                <div class="col-sm-6">
+                    <iframe width="420" height="315" src="https://www.youtube.com/embed/f4J1pgxYTww">
+                    </iframe>
+                    <img alt="prison entreprenuership program" class="thumbnail"
+                        src="https://img.youtube.com/vi/Xv9qv0L-7kc/0.jpg"><img>
+                    <img alt="red hook community justice" class="thumbnail"
+                        src="https://img.youtube.com/vi/g2sAi5So4EE/0.jpg"><img>
+                    <img alt="prison education" class="thumbnail"
+                        src="https://img.youtube.com/vi/VphZwSRM-lw/0.jpg"><img>
+                </div>
             </div>
         </div>
         <div class="section container-fluid main-box">
@@ -143,8 +439,25 @@
             </div>
         </div>
 
-        <div class="section container-fluid main-box">
-            <div class="row">
+
+        <div id="overlay"></div>
+
+
+
+        <script src="index.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+<!-- 
+    <div class="row">
                 <h1>Systems Solutions </h1>
             </div>
             <div class="row">
@@ -154,16 +467,38 @@
             <div class="row">
 
             </div>
+     <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            ...
         </div>
     </div>
-    <script src="index.js"></script>
-</body>
+</div>
+    <div class="modal fade" id="myModal" role="dialog" style="position:relative;">
+        <div class="modal-dialog">
+     
+         
+           <div class="modal-content ">
+            <div class="modal-header">
+                <div class="row d-flex justify-content-between">
+                    <p>Systems Thinking</p>
+             
+              </div>
+            </div>
+            <div class="modal-body">
+               <p>Some text in the modal.</p>
+            </div>
+            <div class="modal-footer">
+               <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+         </div>
+      </div>
 
-</html>
-
-
-<!-- 
 Example 1 
+  <iframe width="420" height="315" src="https://www.youtube.com/embed/Wsq30E6OSVU">
+                    </iframe>
+                   
 
 Prison Pipeline 
 ---- The current approach is tough on crime, which leads to a downward spiral that individuals can't get out of.
