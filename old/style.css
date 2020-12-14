@@ -1,0 +1,329 @@
+
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+*{
+    font-family: 'Source Sans Pro', monospace;
+}
+p{
+    font-size: medium;
+}
+/* From https://www.ordinarycoders.com/blog/article/codepen-bootstrap-card-hovers*/
+#team {
+    background: #eee !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #108d6f;
+    border-color: #108d6f;
+    box-shadow: none;
+    outline: none;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #007b5e;
+    border-color: #007b5e;
+}
+.fp-enabled .modal{
+    position:fixed !important;
+ }
+ 
+
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+#team .card {
+    border: none;
+    background: #ffffff;
+}
+
+.image-flip:hover .backside,
+.image-flip.hover .backside {
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    border-radius: .25rem;
+}
+
+.image-flip:hover .frontside,
+.image-flip.hover .frontside {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.mainflip {
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -moz-transition: 1s;
+    -moz-transform: perspective(1000px);
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.frontside {
+    position: relative;
+    -webkit-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    z-index: 2;
+    margin-bottom: 30px;
+}
+
+.backside {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+}
+
+.frontside,
+.backside {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transition: 1s;
+    -moz-transform-style: preserve-3d;
+    -o-transition: 1s;
+    -o-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+}
+
+.frontside .card,
+.backside .card {
+    min-height: 312px;
+}
+
+.backside .card a {
+    font-size: 18px;
+    color: #007b5e !important;
+}
+
+.frontside .card .card-title,
+.backside .card .card-title {
+    color: #007b5e !important;
+}
+
+.frontside .card .card-body img {
+    width: 100%;
+    height: 150px;
+   /* border-radius: 50%;*/
+}
+
+.modal-body {
+    height:70vh; 
+    width:90vw; 
+    overflow-y: auto;
+}
+
+#overlay {
+    position: relative; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 90vw; /* Full width (cover the whole page) */
+    height:90vh; /* Full height (cover the whole page) */
+    top: 5vh; 
+    left: 5vw;
+    right: 5vw;
+    bottom: 5vh;
+    background-color: white;
+    border-radius: 5%;
+    /* background-color: rgba(0,0,0,0.5); Black background with opacity */
+    z-index: 8; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+  }
+
+
+
+.card-img-top{
+    width:250px;
+    height: 200px;
+}
+.my-card{
+    height: 200px;
+    width:250px;
+}
+.main-paragraph{
+font-size: medium;
+padding:5px 0px;
+}
+.ttl{
+    font-weight: bold;
+    padding-top:5px;
+    font-size: 18px;
+}
+
+.titlebox{
+    height:100px;
+    padding-left: 30px;
+    font-size: 40px;
+    font-weight: bold;
+    
+
+}
+.quotes{
+    font-size: 36px;
+    color:white;
+    text-align: center;
+}
+
+body{
+    background: #E5E5E5;
+}
+
+.navbar{
+    height: 94px;
+    background: #0F2E3D;
+    width: 100vw;
+}
+.btn-block {
+	display: block;
+}
+
+.main-box{
+    height:100vh;
+    width: 100vw;
+}
+.main-box2{
+    position: relative;
+    top:-100vh;
+}
+
+.row{
+    padding: 0px 5vw;
+}
+.arrow-down{
+width: 0; 
+height: 0; 
+border-left: 20px solid transparent;
+border-right: 20px solid transparent;
+
+border-top: 20px solid #f00;
+}
+.s1-text-container{
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    padding: 15px;
+   padding: 50px;
+     height: min-content;
+
+}
+.text-white {
+    color: whitesmoke;
+}
+
+.s1-header{
+   
+    font-family: 'Francois One', sans-serif;
+    font-size: 55px;
+    line-height: 96px;
+/* text color / light */
+    color: #FFFFFF;
+}
+
+#internet-image{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(0deg, rgba(44, 129, 208, 0.3), rgba(44, 129, 208, 0.3)), url('assets/ss2.png');
+    backdrop-filter: blur(4px);
+    background-size:cover;
+}
+
+#connect-image{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(0deg, rgba(44, 129, 208, 0.3), rgba(44, 129, 208, 0.3)), url('assets/ic.jpg');
+    backdrop-filter: blur(4px);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+
+.plus-minus-input {
+    position: relative;
+    left: 60px;
+    top:200px;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .plus-minus-input .input-group-field {
+    text-align: center;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    padding: 1rem;
+  }
+  
+  .plus-minus-input .input-group-field::-webkit-inner-spin-button,
+  .plus-minus-input .input-group-field ::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+            appearance: none;
+  }
+  
+  .plus-minus-input .input-group-button .circle {
+    border-radius: 50%;
+    padding: 0.25em 0.8em;
+  }
+  .flowval{
+      width: 50px;
+      height:20px;
+  }
+ 
+.thumbnail{
+    height: 100px;
+}
+  /* ---- reset ---- */
+   body{ margin:0; font:normal 75% Arial, Helvetica, sans-serif; } 
+   canvas{ display: block; vertical-align: bottom; }
+    /* ---- particles.js container ---- */ 
+    #particles-js{ 
+        width: 100vw; 
+        height: 100vh; 
+        background-color: rgba(44, 129, 208, 1.0);  
+         background-image: url('assets/ss2.png'); 
+        background-repeat: no-repeat; 
+        background-size: cover; 
+        background-position: center;
+        /*background-position: 50% 50%;  */
+    } 
+    #myContainer {
+        width: 400px;
+        height: 400px;
+        position: relative;
+        background: yellow;
+      }
+      #myAnimation {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        background-color: red;
+ } 
+

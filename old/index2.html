@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+        <!-- <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> -->
+        <script src="particles.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/p5@1.1.9/lib/p5.js"></script>
+
+        <!-- <script src =" https://cdnjs.com/libraries/fullPage.js"></script> -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+
+        <link rel="stylesheet" type="text/css" href="fullpage.css" />
+        <script type="text/javascript" src="fullpage.js"></script>
+        <script src="compounding.js"></script>
+        <script src="balancing.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+<link
+    href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap"
+    rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Francois+One&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+   
+    <div id="fullpage">
+        <div class="section">
+            <div id="particles-js"></div>
+        </div>
+        <!-- TODO Add background and center Text -->
+        <div  id="quotesScreen" class="section container-fluid main-box">
+            <p id="quote1" class="quotes">“We cannot solve our problems with the same thinking we used when we created
+                them.” - Albert Einstein</p>
+        </div>
+        <div id="main3" class="section container-fluid main-box">
+            <div id="overlay">
+
+            </div>
+    
+            <div class="titlebox mx-auto">
+                <h1 class="text-center"> Design, Systems, and Social Innovation</h1>
+            </div>
+            <div class="row pb-4">
+                <div class="col-sm-6 ">
+                    <p class="main-paragraph">
+                        Design thinking, was created to aid in our efforts to solve the complex problems people face in
+                        their day-to-day lives.
+
+                        Now it's starting to be applied in the field of social innovation, to try and address the
+                        ‘wicked problems’ in our society like climate change,
+                        poverty, obesity, racism, and education.
+                    </p>
+                </div>
+                <div class="col-sm-6 ">
+                    <p class="main-paragraph"> We need to start thinking in systems. This site will act as a primer to
+                        help you better understand the features of a systems and the types of interventions necessary to change them.</p>
+                </div>
+            </div>
+            <div id = "main-info-cards" class="row d-flex justify-content-around pt-3">
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                        <div class="mainflip">
+                            <div class="frontside">
+                                <div class="card">
+                                    <div class="card-body text-center">
+                                        <p><img class="card-img-top" src="assets/st.png" alt="card image"></p>
+                                        <p class="card-text ttl">Design Thinking</p>
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante..</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="backside">
+                                <div class="card">
+                                    <div class="card-body text-center mt-2">
+                                        <h4 class="card-title">Design Thinking</h4>
+                                        <p class="card-text">"Design Thinking is an iterative process in which we seek
+                                            to understand the user, challenge assumptions, and redefine problems in an
+                                            attempt to identify alternative strategies and solutions that might not be
+                                            instantly apparent with our initial level of understanding"
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="tile1" class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                        <div class="mainflip">
+                            <div class="frontside">
+                                <div class="card">
+                                    <div class="card-body text-center">
+                                        <p><img class="card-img-top" src="assets/desthink.png" alt="card image"></p>
+                                        <p class="card-text ttl">Systems Thinking</p>
+                                        <p class="card-text">Interconnectedness, emergence, feedback, causal loops</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="backside">
+                                <div class="card">
+                                    <div class="card-body text-center mt-2">
+                                        <h4 class="card-title">Systems Thinking</h4>
+                                        <p class="card-text">"Systems thinking is an approach to integration that is
+                                            based on the belief that the component parts of a system will act
+                                            differently when isolated from the system’s environment or other parts of
+                                            the system"
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                        <div class="mainflip">
+                            <div class="frontside">
+                                <div class="card">
+                                    <div class="card-body text-center">
+                                        <p><img class="card-img-top" src="assets/st.png" alt="card image"></p>
+                                        <p class="card-text ttl">Social Innovation</p>
+                                        <p class="card-text">Collaborations between government, business, and the
+                                            nonprofits. </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="backside">
+                                <div class="card">
+                                    <div class="card-body text-center mt-2">
+                                        <h4 class="card-title">Social Innovation</h4>
+                                        <p class="card-text">"Social innovation is the process of developing and
+                                            deploying effective solutions to challenging and often systemic social and
+                                            environmental issues in support of social progress.
+
+                                            —Soule, Malhotra, Clavier"
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="section container-fluid main-box">
+            
+            <div class="titlebox mx-auto pt-2">
+                <h1 class="text-center"> Education</h1>
+            </div>
+            <div class="card-columns">
+                <div class="card">
+                    <img class="card-img-top" src="https://img.youtube.com/vi/GzPi8fgdMeE/0.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Innovations High School and Big Picture Learning</h5>
+                        <p class="card-text">.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="https://img.youtube.com/vi/T-4WFMI0WUw/0.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">KIPP School</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                        
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="https://img.youtube.com/vi/YM9LY67v2Uc/0.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Float School</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante..</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section container-fluid main-box">
+            <div class="titlebox mx-auto pt-2">
+                <h1 class="text-center"> Criminal Justice</h1>
+            </div>
+            <div class="card-columns">
+      
+                <div class="card">
+                    <img class="card-img-top" src="https://img.youtube.com/vi/Xv9qv0L-7kc/0.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Prisoner Entrepreneurship Program, A Documentary</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante..</p>
+                    </div>
+                </div>
+              
+                <div class="card">
+                    <img class="card-img-top" src="https://img.youtube.com/vi/zNpehw-Yjvs/0.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">How Norway's Prisons Are Different From America's</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante..</p>
+                        
+                    </div>
+                </div>
+
+           
+                <div class="card">
+                    <img class="card-img" alt="Inmate University" src="https://img.youtube.com/vi/VphZwSRM-lw/0.jpg"
+                        alt="Card image">
+                </div>
+                <div class="card p-3 text-right">
+                    <blockquote class="blockquote mb-0">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                        <footer class="blockquote-footer">
+                            <small class="text-muted">
+                               <cite title="Source Title">Source Title</cite>
+                            </small>
+                        </footer>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+        <div class="section container-fluid main-box">
+            <div class="titlebox mx-auto pt-2">
+                <h1 class="text-center">Health </h1>
+            </div>
+            <div class="card-columns">
+                <div class="card">
+                    <img class="card-img-top" src="https://img.youtube.com/vi/FIi782I6YS0/0.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Access to mental health care for all is #Solvable | Dixon Chibanda</h5>
+                        <p class="card-text">"Availability of mental health care is #Solvable. Dixon Chibanda explains
+                            how training local health workers to identify, advise, and treat mental health conditions
+                            can help provide adequate psychiatric care to those for whom it is hardest to access".</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="https://img.youtube.com/vi/gfCcI6_1iiA/0.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">How Urban Farming Saved a Dallas Community</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante..</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div  class="section container-fluid main-box">
+            <div class="titlebox">
+                <h1 class="titlebox">Interconnectedness </h1>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <p class="py-1"> The first step to thinking in systems is to realize that everything is connected.</p>
+                    <p class="py-1"> Without seeing how the larger system affects behavior, you’ll hit invisible
+                        barriers and miss points
+                        of leverage.</p>
+
+                    <p class="py-1"> For example, the obesity and nutrition gap in low income communities is systemic.
+                    </p>
+
+                    <p class="py-1"> The linear approach of looking for single factors like ‘availability of healthy
+                        food,’ doesn’t
+                        adequately address the many factors that influence what we eat.</p>
+
+                    <p class="py-1"> People eat unhealthy food because of availibility, knowledge, culture, habit,
+                        environment and more.
+                        To change their behavior, you have to target multiple of these.</p>
+
+                    <p class="py-1"> While this makes it harder to initially change behavior, it also means that changes
+                        to one part of
+                        the system can lead to significant changes in another part.</p>
+
+                    <p class="py-1"> By expanding our scope and looking for leverage elsewhere in the system, we can
+                        discover new
+                        solutions.</p>
+                </div>
+                <div id="section2" class="col-sm-6">
+                    <!-- <iframe width="420" height="315" src="https://www.youtube.com/embed/gfCcI6_1iiA">
+                    </iframe> -->
+                </div>
+            </div>
+        </div>
+        <div  class="section container-fluid main-box">
+            <div class="titlebox">
+                <h1 class="titlebox">Emergence</h1>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                </div>
+                <div class="col-sm-6">
+                    <iframe width="420" height="315" src="https://www.youtube.com/embed/f4J1pgxYTww">
+                    </iframe>
+                    <img alt="prison entreprenuership program" class="thumbnail"
+                        src="https://img.youtube.com/vi/Xv9qv0L-7kc/0.jpg"><img>
+                    <img alt="red hook community justice" class="thumbnail"
+                        src="https://img.youtube.com/vi/g2sAi5So4EE/0.jpg"><img>
+                    <img alt="prison education" class="thumbnail"
+                        src="https://img.youtube.com/vi/VphZwSRM-lw/0.jpg"><img>
+                </div>
+            </div>
+        </div>
+        <div class="section container-fluid main-box">
+            <div class="row">
+                <h1>Positive Feedback</h1>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <p class="s1-header">Current Mindset</p>
+                </div>
+                <div class="col-sm-6">
+                    <p class="s1-header">Systems Mindset</p>
+                    <iframe width="420" height="315" src="https://www.youtube.com/embed/HIRbJEYb2Yg">
+                    </iframe>
+                    <img alt="Innovations High School and Big Picture Learning" class="thumbnail"
+                        src="https://img.youtube.com/vi/GzPi8fgdMeE/0.jpg"><img>
+                    <img alt="Meet the People Building Their Own Internet in Detroit" class="thumbnail"
+                        src="https://img.youtube.com/vi/1B0u6nvcTsI/0.jpg"><img>
+                    <img alt="makoko floating school" class="thumbnail"
+                        src="https://img.youtube.com/vi/YM9LY67v2Uc/0.jpg"><img>
+                    <img alt="barefoot college" class="thumbnail"
+                        src="https://img.youtube.com/vi/6qqqVwM6bMM/0.jpg"><img>
+                    <img alt="KIPP" class="thumbnail" src="https://img.youtube.com/vi/T-4WFMI0WUw/0.jpg"><img>
+                    <img alt="KIPP" class="thumbnail" src="https://img.youtube.com/vi/ceWeIKLfgv8/0.jpg"><img>
+                </div>
+            </div>
+        </div>
+
+
+    <script src="index.js"></script>
+</body>
+
+
+</html>
+   
+   
+
